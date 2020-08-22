@@ -154,7 +154,7 @@ html, body {
       border-radius: 0;
     }
     .jumbotron{
-      background-image: none;
+      background-image: none !important;
     }
     .desktop {
       display: none;
@@ -180,7 +180,7 @@ html, body {
     }
     .jumbotron{
         margin-left:0;
-        background-image: none;
+        background-image: none !important;
     }
     .desktop {
       display: none;
