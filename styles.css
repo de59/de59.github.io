@@ -154,6 +154,7 @@ html, body {
       border-radius: 0;
     }
     .jumbotron{
+      background: inherit;
       background-image: none !important;
     }
     .desktop {
@@ -179,8 +180,9 @@ html, body {
       display: none;
     }
     .jumbotron{
-        margin-left:0;
-        background-image: none !important;
+      margin-left:0;
+      background: inherit;
+      background-image: none !important;
     }
     .desktop {
       display: none;
