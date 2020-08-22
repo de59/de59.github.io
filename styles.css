@@ -1,0 +1,189 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', sans-serif;
+  }
+  
+  img {
+    margin: 10px auto;
+    height: auto;
+    width: auto;
+  }
+
+  .container {
+    border-radius: 15px;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: inherit;
+  }
+  
+  
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+  
+  li {
+    padding: 0.75rem 1.25rem;
+    display: inline-block;
+  }
+  
+  .spacer {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .main {
+    background-color: lightblue;
+  }
+  
+  /*Header Section*/
+  
+  .header {
+    background-color: lightblue;
+  }
+  
+  
+  /*Jumbotron Section*/
+  .jumbotron img {
+      opacity: 0.5;
+  }
+
+  .jumbotron {
+    background-size: 100% 100%;
+    background-color: lightblue !important;
+    max-width: 1200px;
+    margin-left: 50px;
+    background-blend-mode: overlay;
+    font-variant-caps: all-petite-caps;
+  }
+  
+  .jumbotron h2 {
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 70px;
+  }
+  
+  
+  .jumbotron p {
+    text-shadow: 1% 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 5%;
+  }
+  
+  /*Banner Section*/
+  .banner {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /*Expertise Section*/
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card {
+    background-color: lightslategray !important;
+    border-radius: 1.5% !important;
+    margin: 10px;
+  }
+  
+  .card a {
+    color: #000;
+    text-decoration-line: underline;
+  }
+
+  .card img {
+    border-radius: 8%;
+    padding: 1.5%;
+  }
+
+  .col {
+      display: inline-flex;
+      flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #expertise {
+    padding: 20px;
+    background-color: lightblue;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /*Footer Section*/
+  .footer {
+    padding: 20px 0px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer h3 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  
+  .footer p {
+    font-size:12px;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  @media only screen and (max-width: 960px){
+    .main {
+      padding-top: 0;
+    }
+    .supporting img {
+      display: none;
+    }
+    .container {
+      border-radius: 0;
+    }
+    .desktop {
+      display: none;
+    }
+    .phone {
+      display: initial;
+    }
+  }
+  
+  @media only screen and (max-width: 470px) {
+    .rating h1 {
+      text-shadow: 2px 2px 0 #bbbbbb;
+      font-size: 2rem;
+    }
+    .gallery img {
+      margin: 0;
+    }
+    .container {
+      border-radius: 0;
+    }
+    footer nav {
+      display: none;
+    }
+    .jumbotron{
+        margin-left:0;
+        background-size: 75% 15%;
+    }
+    .desktop {
+      display: none;
+    }
+    .phone {
+      display: initial;
+    }
+  }
+  
