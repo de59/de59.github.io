@@ -153,6 +153,9 @@ html, body {
     .container {
       border-radius: 0;
     }
+    .jumbotron{
+      background-image: none;
+    }
     .desktop {
       display: none;
     }
@@ -177,7 +180,7 @@ html, body {
     }
     .jumbotron{
         margin-left:0;
-        background-size: 75% 15%;
+        background-image: none;
     }
     .desktop {
       display: none;
