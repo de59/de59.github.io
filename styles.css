@@ -45,23 +45,19 @@ html, body {
   
   
   /*Jumbotron Section*/
-  .jumbotron img {
-      opacity: 0.5;
-  }
-
   .jumbotron {
+    background-image: url('images/background image.png');
     background-size: 100% 100%;
-    background-color: lightblue !important;
+    background-color: lightgrey !important;
     max-width: 1200px;
     margin-left: 50px;
-    background-blend-mode: overlay;
-    font-variant-caps: all-petite-caps;
+    background-blend-mode: color-dodge;
   }
   
   .jumbotron h2 {
     color: black;
     font-size: 50px;
-    font-weight: 900;
+    font-weight: 400;
     margin-bottom: 70px;
   }
   
@@ -69,7 +65,7 @@ html, body {
   .jumbotron p {
     text-shadow: 1% 0;
     font-size: 1.5rem;
-    font-weight: 900;
+    font-weight: 600;
     color: black;
     margin-bottom: 5%;
   }
@@ -90,19 +86,26 @@ html, body {
   }
 
   .card {
-    background-color: lightslategray !important;
+    background-color: darkslategray !important;
     border-radius: 1.5% !important;
     margin: 10px;
+    color: lightslategray;
+    box-shadow: 8px 6px 3px;
+  }
+
+  .card p,h5 {
+    color: snow;
   }
   
   .card a {
-    color: #000;
+    color: snow;
     text-decoration-line: underline;
+    font-weight: 500;
   }
 
   .card img {
     border-radius: 8%;
-    padding: 1.5%;
+    width: 95%;
   }
 
   .col {
@@ -153,10 +156,6 @@ html, body {
     .container {
       border-radius: 0;
     }
-    .jumbotron{
-      background: inherit;
-      background-image: none !important;
-    }
     .desktop {
       display: none;
     }
@@ -180,9 +179,8 @@ html, body {
       display: none;
     }
     .jumbotron{
-      margin-left:0;
-      background: inherit;
-      background-image: none !important;
+        margin-left:0;
+        background-size: 75% 15%;
     }
     .desktop {
       display: none;
