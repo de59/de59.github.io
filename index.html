@@ -5,36 +5,49 @@
     <link rel="stylesheet" href="styles.css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
   <div class="header">
-    <nav class="navbar navbar-expand-lg navbar-light container">
-        <h2 class="navbar-brand">Daniel B. Marques</h2>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Daniel B. Marques</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#expertise">My Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact Me</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#expertise">My Projects</a>
+            <a class="nav-link" href="#footer">Contact Me</a>
+          </div>
         </div>
-      </nav>
+      </div>
+    </nav>
   </div>
-  <div class="jumbotron">
-    <div class="navbar-dark">
-      <div class="desktop"><div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="daniel-encarnacao"><a class="LI-simple-link" href='https://www.linkedin.com/in/daniel-encarnacao?trk=profile-badge'>Daniel Marques</a></div></div>
-      <p id=#me>Throughout my career, I have contributed to positive business results through effective organization, prioritization, and follow-through of key organizational projects. My strengths and qualifications are an ideal match for analytical, problem solving, and critical thinking roles and I can bring immediate value to your organization in a financial and data-driven position.</p>
-      <p>
-        In my former President and Portfolio Management role at NJIT's $50,000 Investment Fund, I exercised a calculated and methodical approach to problem-solving using data science and machine learning to make accurate decisions. While I am independently motivated, I appreciate collective efforts and collaborate productively within group settings. Moreover, I am competent in portfolio creation and management as well as machine learning and data modeling with proficiency in cash flow modeling. Further, my communication, innovation, and critical thinking abilities will serve to support your continued organizational efforts.
-        To illustrate the scope of my career history and professional competencies, please take a moment to review some of my projects below. I am grateful for your evaluation of my credentials and subsequent response.
-      </p>
-      <a class="btn btn-primary btn-lg" href="#expertise" role="button">Take a Look</a>
+  <div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images\DCF Dashboard.PNG" class="d-block w-100" alt="Interective Dashboard for Financial Statement Analysis and DCF">
+        </div>
+        <div class="carousel-item">
+          <img src="images\Pytho Notebook Screen Clipping.PNG" class="d-block w-100" alt="Financial Data Analysis and Visualization with Python">
+        </div>
+        <div class="carousel-item">
+          <h2 style="padding: 2rem; padding-bottom: 0;">You can check out these projects and more</h2>
+          <div style="padding: 2rem;" class="d-grid gap-2 col-6 mx-auto">
+            <a style="position: inherit;" type="button" href="#expertise" class="btn btn-outline-dark btn-lg">Below!</a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
     </div>
   </div>
   <div class="banner">
@@ -49,25 +62,24 @@
       <div class="spacer">
         <div class="cards">
             <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="images\NEM Report.png" alt="Card image cap">
+              <img class="card-img-top" src="images\DCF Dashboard.PNG" alt="Excel DCF Dashboard">
               <div class="card-body">
-                <h5 class="card-title">Newmont Mining (NEM) Report</h5>
+                <h5 class="card-title">Financial Analysis Dashboard</h5>
                 <p class="card-text">
-                  This is a research report and a financial valuation for NEM just before its merger with Goldcorp. 
-                  This required me to think outside the box for valuation modeling because the future cash flow of the company was very uncertain.
+                  This is a a financial analysis and valuation model with an interactive Dashboard using Pivot Tables.
+                  It has been designed so that the data can easily be changed and pluged in as this report can serve as a complete DCF template.
                 </p>
               </div>
               <ul class="list-group list-group-flush">
-                <li><a href="Projects\NEM Valuation D.Marques.xlsx" download>Valuation - Excel</a></li>
-                <li><a href="Projects\NEM - Report D.Marques.pptx" download>Report - PP</a></li>
+                <li><a href="Projects\VZ Consolidated IS,BS, & CF .xlsx" download>Report - Excel</a></li>
               </ul>
             </div>
             <div class="card" style="width: 18rem;">
               <img class="card-img-top" src="images\Fund Report.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">NJIT Investment Fund Report</h5>
-                <p class="card-text">This is a portfolio restructuring report I put together and presented to the Dean and Donors as the Portfolio Manager for the fund.
-                  Through a rocky begging to 2020, this portfolio was able to outperform the S & P 500 by a significant margin.
+                <p class="card-text">This is a portfolio restructuring report that I put together and presented to the Dean and Staff as the Portfolio Manager for the fund.
+                  Through a rocky 2020, this portfolio allocation was able to outperform the S & P 500 by a significant margin.
                 </p>
               </div>
               <ul class="list-group list-group-flush">
@@ -123,7 +135,6 @@
                 <li><a href="Projects\Case Study 1 D.Marques.accdb" download>Case Study 1 - Access</a></li>
                 <li><a href="Projects\Case Study 2 D.Marques.accdb" download>Case Study 2 - Access</a></li>
                 <li><a href="Projects\Case Study 3 D.Marques.accdb" download>Case Study 3 - Access</a></li>
-                <li><a href="Projects\Case Study 4 D.Marques.accdb" download>Case Study 4 - Access</a></li>
               </ul>
             </div>
         </div>
@@ -145,13 +156,9 @@
         <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-1 0v6.5a.5.5 0 0 0 .5.5zm-4.8 1.6c0-.22.18-.4.4-.4h8.8a.4.4 0 0 1 0 .8H3.6a.4.4 0 0 1-.4-.4z"/>
       </svg></a>
     </div>
-    <div class="desktop"><div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="daniel-encarnacao"><a class="LI-simple-link" href='https://www.linkedin.com/in/daniel-encarnacao?trk=profile-badge'>Daniel Marques</a></div></div>
-    <div class="phone"><div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="daniel-encarnacao"><a class="LI-simple-link" href='https://www.linkedin.com/in/daniel-encarnacao?trk=profile-badge'>Daniel Marques</a></div></div>
+    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="daniel-encarnacao"><a class="LI-simple-link" href='https://www.linkedin.com/in/daniel-encarnacao?trk=profile-badge'>Daniel Marques</a></div>
   </div>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </body>
 </html>
