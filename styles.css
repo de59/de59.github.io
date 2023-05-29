@@ -86,7 +86,7 @@ html, body {
 
   .card {
     background-color: darkslategray !important;
-    border-radius: 1.5% !important;
+    border-radius: 6% !important;
     margin: 10px;
     color: lightslategray;
     box-shadow: 8px 6px 3px;
@@ -103,7 +103,7 @@ html, body {
   }
 
   .card img {
-    border-radius: 8%;
+    padding:3%;
     width: 95%;
   }
 
